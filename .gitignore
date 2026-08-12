@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+.env.*
+
+# Node.js
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+
+# Build files
+dist/
+build/
+out/
+
+# IDE & OS
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
