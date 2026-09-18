@@ -24,8 +24,8 @@ Candidates often spend hours rewriting the same resume for different roles. Resu
 
 ### AI Tailor / Resume Generator
 - Accept a job description and candidate background
-- Retrieve the most relevant experience or project chunks using semantic matching
-- Generate tailored bullet points aligned to the role requirements
+- Retrieve and rank experience or project items using hybrid semantic and keyword matching
+- Assemble tailored resumes structured around the target role requirements
 
 ### ATS Analyzer
 - Parse uploaded PDF and DOCX files
@@ -92,7 +92,7 @@ A typical request flow:
 2. The frontend sends requests to the FastAPI backend
 3. The backend stores or analyzes data in PostgreSQL
 4. Relevant resume/project context is retrieved using vector similarity and keyword matching
-5. AI-generated content or analysis feedback is returned to the UI
+5. Tailored resume layouts or ATS analysis feedback are returned to the UI
 
 ## Local Development
 
