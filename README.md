@@ -4,6 +4,13 @@ ResumeX is an AI-powered resume builder and optimization platform designed to he
 
 The project brings together a modern Next.js frontend, a FastAPI backend, PostgreSQL storage, and vector-based retrieval to support AI-assisted resume matching and optimization.
 
+## Live Demo
+
+Try ResumeX online:
+
+- **Frontend**: [https://resume-buddy-pcpt.vercel.app](https://resume-buddy-pcpt.vercel.app)
+- **Backend API**: [https://resumex-backend-skm3.onrender.com](https://resumex-backend-skm3.onrender.com)
+
 ## Why ResumeX?
 
 Candidates often spend hours rewriting the same resume for different roles. ResumeX streamlines that workflow by providing:
